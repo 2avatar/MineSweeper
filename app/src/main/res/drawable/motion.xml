@@ -1,0 +1,22 @@
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true">
+
+    <item android:drawable="@drawable/gamebackground" android:duration="150" />
+    <item android:drawable="@drawable/gamebackground" android:duration="150" />
+    <item android:drawable="@drawable/redalert" android:duration="150" />
+    <item android:drawable="@drawable/gamebackground" android:duration="150" />
+    <item android:drawable="@drawable/redalert" android:duration="150" />
+    <item android:drawable="@drawable/gamebackground" android:duration="150" />
+    <item android:drawable="@drawable/redalert" android:duration="150" />
+    <item android:drawable="@drawable/gamebackground" android:duration="150" />
+    <item android:drawable="@drawable/redalert" android:duration="150" />
+    <item android:drawable="@drawable/gamebackground" android:duration="150" />
+    <item android:drawable="@drawable/redalert" android:duration="150" />
+    <item android:drawable="@drawable/gamebackground" android:duration="150" />
+    <item android:drawable="@drawable/redalert" android:duration="150" />
+    <item android:drawable="@drawable/gamebackground" android:duration="150" />
+    <item android:drawable="@drawable/redalert" android:duration="150" />
+    <item android:drawable="@drawable/gamebackground" android:duration="150" />
+    <item android:drawable="@drawable/gamebackground" android:duration="150" />
+
+</animation-list>

@@ -1,0 +1,21 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="none"
+    android:id="@+id/fragmentTable"
+    android:layout_weight="1">
+
+
+<TableLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="350dp"
+    android:id="@+id/tableLayout"
+    android:scrollbarAlwaysDrawHorizontalTrack="false"
+    android:scrollbars="horizontal|vertical"
+    tools:context="com.example.eviat.mines.Fragments.TableFragment">
+
+
+
+</TableLayout>
+    </ScrollView>

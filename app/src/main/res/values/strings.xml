@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Mines</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="easy_mode">Easy</string>
+    <string name="medium_mode">Medium</string>
+    <string name="hard_mode">Hard</string>
+    <string name="score_button">Score</string>
+    <string name="insert_name_label">Insert Name:</string>
+    <string name="time_for_xml">Time: 0</string>
+    <string name="time_for_activity">Time: </string>
+    <string name="best_scores">Best Scores</string>
+    <string name="map_switch">Map</string>
+    <string name="good_luck">Good Luck</string>
+    <string name="insert_name_toast">Please Insert Name..</string>
+    <string name="warning_bombs">Warning! Return the phone to initiate position, Adding Bombs...</string>
+</resources>

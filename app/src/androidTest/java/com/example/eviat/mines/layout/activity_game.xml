@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_game"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gamebackground"
+    android:weightSum="10"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.eviat.mines.GameActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:orientation="horizontal"
+    android:weightSum="3">
+
+
+
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="35dp"
+        app:srcCompat="@drawable/bomblogo"
+        android:layout_weight="1"
+        android:layout_marginTop="2dp"
+        android:id="@+id/imageView2" />
+
+    <TextView
+        android:text="X "
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:textSize="25dp"
+        android:layout_weight="1"
+        android:id="@+id/textView"
+         />
+
+
+    <TextView
+        android:text="@string/time_for_xml"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="130dp"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/textView6" />
+
+
+</LinearLayout>
+
+
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchMode="columnWidth"
+        android:columnWidth="10dp"
+        android:verticalSpacing="10dp"
+        android:horizontalSpacing="10dp"
+        android:layout_gravity="center"
+        android:layout_weight="7"
+        android:id="@+id/gridView"
+        />
+
+
+</LinearLayout>

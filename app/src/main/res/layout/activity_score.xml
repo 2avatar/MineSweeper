@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_score"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.eviat.mines.ScoreActivity">
+
+    <TextView
+        android:text="@string/best_scores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:id="@+id/textView"
+        android:textSize="30sp"
+        android:textStyle="normal|bold"
+        android:layout_alignParentTop="true"
+        android:layout_below="@+id/ScoreGroup"
+        android:layout_alignParentStart="true" />
+
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:showText="true"
+        android:checked="false"
+        android:layout_marginTop="8dp"
+        android:id="@+id/switch1"
+        android:layout_below="@+id/ScoreGroup"
+        android:text="@string/map_switch" />
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/ScoreGroup"
+        android:layout_marginTop="5dp">
+
+        <RadioButton
+            android:text="@string/easy_mode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:checked="true"
+            android:id="@+id/ScoreEasy" />
+
+        <RadioButton
+            android:text="@string/medium_mode"
+            android:textColorHighlight="@color/colorPrimaryDark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:id="@+id/ScoreMedium"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:text="@string/hard_mode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ScoreHard"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_gravity="right"
+            android:layout_weight="1" />
+
+    </RadioGroup>
+
+    <fragment
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:name="com.example.eviat.mines.Fragments.MapFragment"
+    android:layout_alignParentBottom="true"
+    android:id="@+id/fragmentMap"
+    android:layout_alignParentEnd="true" />
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:name="com.example.eviat.mines.Fragments.TableFragment"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/fragmentTable"
+        android:layout_alignParentEnd="true" />
+
+
+
+</RelativeLayout>
